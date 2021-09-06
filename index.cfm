@@ -21,7 +21,7 @@
 
 			// CAUTION: In a production setting, you MAY have to take more precaution
 			// around how you redirect the user after (or as part of) authentication. In
-			// some cases, not sanitizing the redirection-URL can lead to a PERSISTED XSS
+			// some cases, not sanitizing the redirection-URL can lead to a REFLECTED XSS
 			// (Cross-Site Scripting) attack (especially if you need to forward the user
 			// to a Single Sign-On identity provider that, in some way, echoes its "relay
 			// state" on the login page). For the sake of this demo, I am more-or-less
