@@ -12,8 +12,9 @@
 		;
 
 		// NOTE: If the current URL has a FRAGMENT on it, that FRAGMENT will be
-		// maintained through this redirect. The login page will then grab the fragment
-		// and convert it into a "spaRoute" URL parameter for safer passage.
+		// maintained through this redirect (even though it is not sent to the server).
+		// The login page will then grab the fragment and convert it into a "spaRoute"
+		// URL parameter for safer passage.
 		location(
 			url = "./index.cfm?redirectTo=#encodeForUrl( redirectTo )#",
 			addToken = false
@@ -73,6 +74,7 @@
 
 		<script type="text/javascript">
 
+			// Output the current spa-route fragment in the view.
 			document
 				.querySelector( ".route" )
 				.textContent = window.location.hash

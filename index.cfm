@@ -58,7 +58,7 @@
 		</title>
 	</head>
 	<body>
-		
+
 		<h1>
 			Log Into the Single-Page Application (SPA)
 		</h1>

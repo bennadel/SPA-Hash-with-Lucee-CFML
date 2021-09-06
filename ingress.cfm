@@ -10,7 +10,7 @@
 <cfoutput>
 
 	<h1>
-		Ways a URL Can Be Sent
+		Ways A URL Can Be Sent
 	</h1>
 
 	<p>
